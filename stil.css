@@ -1,0 +1,54 @@
+*{
+    font-size: 11px; text-align: center;
+    color: hsl(228, 45%, 44%); 
+    /* border: 1px red solid; */
+    box-sizing: border-box;
+}
+body {
+    background-color: #0E2954; 
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+div#maincontainer {
+    height: 80%;
+}
+div#temel {
+    background-color: #1e4077;
+    border-radius: 5%;
+    position: relative;
+}
+span#advice {
+    font-size: 15px;
+    color: #6fe0c6;
+
+}
+
+div#altcizgi {
+    width: 80%;
+    height: 5%;
+}
+
+div#zar {
+    position: absolute;
+    bottom: -21px;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #97FEED;
+}
+
+div#zar:hover {
+    background-color: #cbf1ea;
+    box-shadow: 1px 1px 15px 10px  #d5eee9;
+}
+
+div#tavsiyemetni{
+    font-size: 20px;
+    color: rgb(227, 243, 243);
+    text-emphasis-style: bold;
+    font-style: italic;
+}
